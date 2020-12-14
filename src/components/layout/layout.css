@@ -1,0 +1,29 @@
+:root {
+	--color-background: white;
+    --color-foreground: black;
+
+    /* --color-foreground: #f9c5c1; */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: var(--color-background);
+	color: var(--color-foreground);
+}
+
+a {
+	color: var(--color-foreground);
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.layout {
+    min-height:100vh;
+}
