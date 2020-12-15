@@ -79,6 +79,19 @@ const DLVT = {
 				},
 				year: twentynineteen,
 			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: aaron,
+				place: 4,
+				pointsAgainst: 1585,
+				pointsFor: 1722,
+				record: {
+					wins: 9,
+					losses: 4,
+					ties: 0,
+				},
+				year: twentyeighteen,
+			},
 		},
 	},
 	[alex]: {
@@ -147,6 +160,19 @@ const DLVT = {
 				},
 				year: twentynineteen,
 			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: ben,
+				place: 2,
+				pointsAgainst: 1514,
+				pointsFor: 1525,
+				record: {
+					wins: 6,
+					losses: 7,
+					ties: 0,
+				},
+				year: twentyeighteen,
+			},
 		},
 	},
 	[chase]: {
@@ -180,6 +206,19 @@ const DLVT = {
 					ties: 1,
 				},
 				year: twentynineteen,
+			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: chase,
+				place: 1,
+				pointsAgainst: 1477,
+				pointsFor: 1691,
+				record: {
+					wins: 10,
+					losses: 3,
+					ties: 0,
+				},
+				year: twentyeighteen,
 			},
 		},
 	},
@@ -215,6 +254,19 @@ const DLVT = {
 				},
 				year: twentynineteen,
 			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: cody,
+				place: 9,
+				pointsAgainst: 1646,
+				pointsFor: 1589,
+				record: {
+					wins: 5,
+					losses: 8,
+					ties: 0,
+				},
+				year: twentyeighteen,
+			},
 		},
 	},
 	[collin]: {
@@ -248,6 +300,19 @@ const DLVT = {
 					ties: 0,
 				},
 				year: twentynineteen,
+			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: collin,
+				place: 3,
+				pointsAgainst: 1521,
+				pointsFor: 1591,
+				record: {
+					wins: 6,
+					losses: 7,
+					ties: 0,
+				},
+				year: twentyeighteen,
 			},
 		},
 	},
@@ -283,6 +348,19 @@ const DLVT = {
 				},
 				year: twentynineteen,
 			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: dan,
+				place: 8,
+				pointsAgainst: 1617,
+				pointsFor: 1524,
+				record: {
+					wins: 4,
+					losses: 9,
+					ties: 0,
+				},
+				year: twentyeighteen,
+			},
 		},
 	},
 	[jordan]: {
@@ -316,6 +394,19 @@ const DLVT = {
 					ties: 1,
 				},
 				year: twentynineteen,
+			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: jordan,
+				place: 5,
+				pointsAgainst: 1641,
+				pointsFor: 1695,
+				record: {
+					wins: 8,
+					losses: 5,
+					ties: 0,
+				},
+				year: twentyeighteen,
 			},
 		},
 	},
@@ -351,6 +442,19 @@ const DLVT = {
 				},
 				year: twentynineteen,
 			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: kenny,
+				place: 7,
+				pointsAgainst: 1733,
+				pointsFor: 1532,
+				record: {
+					wins: 5,
+					losses: 8,
+					ties: 0,
+				},
+				year: twentyeighteen,
+			},
 		},
 	},
 	[max]: {
@@ -385,10 +489,23 @@ const DLVT = {
 				},
 				year: twentynineteen,
 			},
+			[twentyeighteen]: {
+				award: 'Award 1',
+				manager: max,
+				place: 6,
+				pointsAgainst: 1631,
+				pointsFor: 1725,
+				record: {
+					wins: 6,
+					losses: 7,
+					ties: 0,
+				},
+				year: twentyeighteen,
+			},
 		},
 	},
 };
 
-// Potentially do arrays by year and just compute the object above>?
+// Potentially do arrays by year and just compute the object above?
 
 export default DLVT;
