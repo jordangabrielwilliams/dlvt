@@ -36,8 +36,14 @@ export const managers = [
 
 // Years
 export const twentytwenty = '2020';
+export const twentynineteen = '2019';
+// @todo add 2018 data
+export const twentyeighteen = '2018';
+
+export const supportedYears = [twentytwenty, twentynineteen, twentyeighteen];
 
 export const currentYear = twentytwenty;
+export const all = 'all';
 
 // Data Model
 const DLVT = {
@@ -60,6 +66,19 @@ const DLVT = {
 				},
 				year: twentytwenty,
 			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: aaron,
+				place: 2,
+				pointsAgainst: 1598,
+				pointsFor: 1555,
+				record: {
+					wins: 8,
+					losses: 5,
+					ties: 0,
+				},
+				year: twentynineteen,
+			},
 		},
 	},
 	[alex]: {
@@ -80,6 +99,19 @@ const DLVT = {
 					ties: 0,
 				},
 				year: twentytwenty,
+			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: alex,
+				place: 6,
+				pointsAgainst: 1421,
+				pointsFor: 1511,
+				record: {
+					wins: 8,
+					losses: 5,
+					ties: 0,
+				},
+				year: twentynineteen,
 			},
 		},
 	},
@@ -102,6 +134,19 @@ const DLVT = {
 				},
 				year: twentytwenty,
 			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: ben,
+				place: 8,
+				pointsAgainst: 1595,
+				pointsFor: 1547,
+				record: {
+					wins: 5,
+					losses: 8,
+					ties: 0,
+				},
+				year: twentynineteen,
+			},
 		},
 	},
 	[chase]: {
@@ -122,6 +167,19 @@ const DLVT = {
 					ties: 0,
 				},
 				year: twentytwenty,
+			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: chase,
+				place: 4,
+				pointsAgainst: 1406,
+				pointsFor: 1507,
+				record: {
+					wins: 9,
+					losses: 3,
+					ties: 1,
+				},
+				year: twentynineteen,
 			},
 		},
 	},
@@ -144,6 +202,19 @@ const DLVT = {
 				},
 				year: twentytwenty,
 			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: cody,
+				place: 5,
+				pointsAgainst: 1608,
+				pointsFor: 1529,
+				record: {
+					wins: 6,
+					losses: 7,
+					ties: 0,
+				},
+				year: twentynineteen,
+			},
 		},
 	},
 	[collin]: {
@@ -164,6 +235,19 @@ const DLVT = {
 					ties: 0,
 				},
 				year: twentytwenty,
+			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: collin,
+				place: 3,
+				pointsAgainst: 1514,
+				pointsFor: 1550,
+				record: {
+					wins: 8,
+					losses: 5,
+					ties: 0,
+				},
+				year: twentynineteen,
 			},
 		},
 	},
@@ -186,6 +270,19 @@ const DLVT = {
 				},
 				year: twentytwenty,
 			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: dan,
+				place: 10,
+				pointsAgainst: 1515,
+				pointsFor: 1484,
+				record: {
+					wins: 4,
+					losses: 9,
+					ties: 0,
+				},
+				year: twentynineteen,
+			},
 		},
 	},
 	[jordan]: {
@@ -206,6 +303,19 @@ const DLVT = {
 					ties: 0,
 				},
 				year: twentytwenty,
+			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: jordan,
+				place: 9,
+				pointsAgainst: 1716,
+				pointsFor: 1504,
+				record: {
+					wins: 3,
+					losses: 9,
+					ties: 1,
+				},
+				year: twentynineteen,
 			},
 		},
 	},
@@ -228,6 +338,19 @@ const DLVT = {
 				},
 				year: twentytwenty,
 			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: kenny,
+				place: 1,
+				pointsAgainst: 1323,
+				pointsFor: 1385,
+				record: {
+					wins: 8,
+					losses: 5,
+					ties: 0,
+				},
+				year: twentynineteen,
+			},
 		},
 	},
 	[max]: {
@@ -248,6 +371,19 @@ const DLVT = {
 					ties: 0,
 				},
 				year: twentytwenty,
+			},
+			[twentynineteen]: {
+				award: 'Award 1',
+				manager: max,
+				place: 7,
+				pointsAgainst: 1445,
+				pointsFor: 1569,
+				record: {
+					wins: 5,
+					losses: 8,
+					ties: 0,
+				},
+				year: twentynineteen,
 			},
 		},
 	},
