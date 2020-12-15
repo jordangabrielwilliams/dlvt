@@ -17,7 +17,7 @@ html {
 	color: var(--color-foreground);
 }
 
-body {
+body, select {
     font-family: "Noto Sans JP";
 }
 
