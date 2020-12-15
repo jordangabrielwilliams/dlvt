@@ -2,7 +2,9 @@
     background-color: white;
     border: 1px solid var(--color-light-gray);
     border-radius: 12px;
-    flex: 1 1 400px;
+    flex: 1 1 350px;
+    /* @todo maybe switch to this */
+    /* flex-basis: 375px; */
     margin: 8px;
     padding: 12px;
 }
@@ -22,6 +24,24 @@
     margin-left: 12px;
 }
 
-.card_header_content p {
+.card_header_content p, .card_table {
     font-size: 14px;
+}
+
+.card_body {
+    display: flex;
+}
+
+.card_table {
+    margin-top: 12px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid var(--color-light-gray);
+    border-collapse: collapse;
+}
+
+td {
+    padding: 4px;
 }
