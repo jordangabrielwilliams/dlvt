@@ -54,7 +54,7 @@ const DLVT = {
 		image: aaronImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: aaron,
 				place: 6,
 				pointsAgainst: 1486.8,
@@ -67,7 +67,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: aaron,
 				place: 2,
 				pointsAgainst: 1598,
@@ -80,7 +80,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: aaron,
 				place: 4,
 				pointsAgainst: 1585,
@@ -102,7 +102,7 @@ const DLVT = {
 		image: alexImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: alex,
 				place: 1,
 				pointsAgainst: 1516.68,
@@ -115,7 +115,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: 'Rookie of the Year',
 				manager: alex,
 				place: 6,
 				pointsAgainst: 1421,
@@ -137,7 +137,7 @@ const DLVT = {
 		image: benImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: ben,
 				place: 3,
 				pointsAgainst: 1626.06,
@@ -150,7 +150,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: ben,
 				place: 8,
 				pointsAgainst: 1595,
@@ -163,7 +163,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: ben,
 				place: 2,
 				pointsAgainst: 1514,
@@ -185,7 +185,7 @@ const DLVT = {
 		image: chaseImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: chase,
 				place: 2,
 				pointsAgainst: 1520.68,
@@ -198,7 +198,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: chase,
 				place: 4,
 				pointsAgainst: 1406,
@@ -211,7 +211,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: chase,
 				place: 1,
 				pointsAgainst: 1477,
@@ -233,7 +233,7 @@ const DLVT = {
 		image: codyImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: cody,
 				place: 4,
 				pointsAgainst: 1363.5,
@@ -246,7 +246,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: cody,
 				place: 5,
 				pointsAgainst: 1608,
@@ -259,7 +259,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: cody,
 				place: 9,
 				pointsAgainst: 1646,
@@ -281,7 +281,7 @@ const DLVT = {
 		image: collinImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 2',
+				award: 'TBD',
 				manager: collin,
 				place: 9,
 				pointsAgainst: 1553.16,
@@ -294,7 +294,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: 'MVP',
 				manager: collin,
 				place: 3,
 				pointsAgainst: 1514,
@@ -307,7 +307,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: collin,
 				place: 3,
 				pointsAgainst: 1521,
@@ -329,7 +329,7 @@ const DLVT = {
 		image: danImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 2',
+				award: 'TBD',
 				manager: dan,
 				place: 10,
 				pointsAgainst: 1792.0,
@@ -342,7 +342,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: dan,
 				place: 10,
 				pointsAgainst: 1515,
@@ -355,7 +355,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: dan,
 				place: 8,
 				pointsAgainst: 1617,
@@ -377,7 +377,7 @@ const DLVT = {
 		image: jordanImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: jordan,
 				place: 8,
 				pointsAgainst: 1640.3,
@@ -390,7 +390,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: jordan,
 				place: 9,
 				pointsAgainst: 1716,
@@ -403,7 +403,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: jordan,
 				place: 5,
 				pointsAgainst: 1641,
@@ -421,11 +421,11 @@ const DLVT = {
 		championships: '🏆🏆🏆',
 		fullName: 'Kenny Copsey',
 		teamName: "Keeping Up With The Copsey's",
-		description: 'Basically Bill Belichick',
+		description: 'Filipino Bill Belichick',
 		image: kennyImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: kenny,
 				place: 7,
 				pointsAgainst: 1698.32,
@@ -438,7 +438,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: '?',
 				manager: kenny,
 				place: 1,
 				pointsAgainst: 1323,
@@ -451,7 +451,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: kenny,
 				place: 7,
 				pointsAgainst: 1733,
@@ -473,7 +473,7 @@ const DLVT = {
 		image: maxImage,
 		years: {
 			[twentytwenty]: {
-				award: 'Award 1',
+				award: 'TBD',
 				manager: max,
 				place: 5,
 				pointsAgainst: 1550.8,
@@ -486,7 +486,7 @@ const DLVT = {
 				year: twentytwenty,
 			},
 			[twentynineteen]: {
-				award: 'Award 1',
+				award: 'Dad of the Year',
 				manager: max,
 				place: 7,
 				pointsAgainst: 1445,
@@ -499,7 +499,7 @@ const DLVT = {
 				year: twentynineteen,
 			},
 			[twentyeighteen]: {
-				award: 'Award 1',
+				award: 'N/A',
 				manager: max,
 				place: 6,
 				pointsAgainst: 1631,
