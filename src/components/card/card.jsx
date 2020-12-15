@@ -9,6 +9,7 @@ import styles from './card.module.css';
 
 const propTypes = {
 	manager: PropTypes.shape({
+		championships: PropTypes.string,
 		description: PropTypes.string.isRequired,
 		fullName: PropTypes.string.isRequired,
 		image: PropTypes.string.isRequired,
@@ -118,7 +119,7 @@ function YearData({ manager, year } = {}) {
 function Card({ manager, year } = {}) {
 	if (isEmpty(manager)) return null;
 
-	const { description, fullName, image, teamName } = manager;
+	const { championships, description, fullName, image, teamName } = manager;
 
 	const data =
 		year === 'all' ? (
@@ -142,7 +143,7 @@ function Card({ manager, year } = {}) {
 						<i>{description}</i>
 					</p>
 					{/* @todo make this emoji count dynamic */}
-					🏆🏆💩
+					{championships}
 				</div>
 			</div>
 			{data}

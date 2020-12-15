@@ -37,7 +37,6 @@ export const managers = [
 // Years
 export const twentytwenty = '2020';
 export const twentynineteen = '2019';
-// @todo add 2018 data
 export const twentyeighteen = '2018';
 
 export const supportedYears = [twentytwenty, twentynineteen, twentyeighteen];
@@ -48,6 +47,7 @@ export const all = 'all';
 // Data Model
 const DLVT = {
 	[aaron]: {
+		championships: undefined,
 		fullName: 'Aaron Mack',
 		teamName: 'Nothing but a (Jimmy) G Thang',
 		description: 'Moved to Seattle for sex',
@@ -95,6 +95,7 @@ const DLVT = {
 		},
 	},
 	[alex]: {
+		championships: undefined,
 		fullName: 'Alex Piering',
 		teamName: 'Master Pie',
 		description: 'Started Frank Gore and won',
@@ -129,6 +130,7 @@ const DLVT = {
 		},
 	},
 	[ben]: {
+		championships: undefined,
 		fullName: 'Ben Johnson',
 		teamName: 'Let Russ Cook',
 		description: 'Only drafts Seahawks players',
@@ -176,6 +178,7 @@ const DLVT = {
 		},
 	},
 	[chase]: {
+		championships: '🏆',
 		fullName: 'Chase Pritchett',
 		teamName: 'Team RG3PO',
 		description: 'Lives in Europe',
@@ -223,6 +226,7 @@ const DLVT = {
 		},
 	},
 	[cody]: {
+		championships: undefined,
 		fullName: 'Cody Fields',
 		teamName: 'Team Fields',
 		description: 'Forever 5th place',
@@ -270,6 +274,7 @@ const DLVT = {
 		},
 	},
 	[collin]: {
+		championships: undefined,
 		fullName: 'Collin Barrett',
 		teamName: 'Comeback Kid',
 		description: 'Always looking for a serviceable flex',
@@ -317,6 +322,7 @@ const DLVT = {
 		},
 	},
 	[dan]: {
+		championships: '🏆💩',
 		fullName: 'Dan Eckman',
 		teamName: 'Touchdown Tom',
 		description: "Former champ who won't stop whining",
@@ -364,6 +370,7 @@ const DLVT = {
 		},
 	},
 	[jordan]: {
+		championships: undefined,
 		fullName: 'Jordan Williams',
 		teamName: 'Lord Commander',
 		description: 'Most likely to draft 2 QBs',
@@ -411,6 +418,7 @@ const DLVT = {
 		},
 	},
 	[kenny]: {
+		championships: '🏆🏆🏆',
 		fullName: 'Kenny Copsey',
 		teamName: "Keeping Up With The Copsey's",
 		description: 'Basically Bill Belichick',
@@ -458,6 +466,7 @@ const DLVT = {
 		},
 	},
 	[max]: {
+		championships: '🏆',
 		fullName: 'Max Houston',
 		teamName: 'Hut Hut HEIKS',
 		description: 'Supposedly the strongest',
