@@ -7,7 +7,7 @@ import Managers from '../components/managers/managers';
 
 import styles from './index.module.css';
 
-export default function Home() {
+export default function Application() {
 	const [year, setYear] = useState(currentYear);
 
 	function handleChange(event) {
