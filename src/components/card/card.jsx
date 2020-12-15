@@ -41,14 +41,10 @@ function ConsolidatedData({ manager } = {}) {
 
 	const consolidatedTotalMatches =
 		consolidatedWins + consolidatedLosses + consolidatedTies;
-	const averagePointsFor = round(
-		consolidatedPointsFor / consolidatedTotalMatches,
-		2
-	);
-	const averagePointsAgainst = round(
-		consolidatedPointsAgainst / consolidatedTotalMatches,
-		2
-	);
+	const averagePointsFor = consolidatedPointsFor / consolidatedTotalMatches;
+	const averagePointsAgainst =
+		consolidatedPointsAgainst / consolidatedTotalMatches;
+
 	const record = {
 		wins: consolidatedWins,
 		losses: consolidatedLosses,
@@ -68,10 +64,10 @@ function ConsolidatedData({ manager } = {}) {
 				</tr>
 				<tr>
 					<td>{formattedRecord}</td>
-					<td>{consolidatedPointsFor}</td>
-					<td>{consolidatedPointsAgainst}</td>
-					<td>{averagePointsFor}</td>
-					<td>{averagePointsAgainst}</td>
+					<td>{round(consolidatedPointsFor, 1)}</td>
+					<td>{round(consolidatedPointsAgainst, 1)}</td>
+					<td>{round(averagePointsFor, 1)}</td>
+					<td>{round(averagePointsAgainst, 1)}</td>
 				</tr>
 			</table>
 		</div>
@@ -108,8 +104,8 @@ function YearData({ manager, year } = {}) {
 					<td>{formattedRecord}</td>
 					<td>{pointsFor}</td>
 					<td>{pointsAgainst}</td>
-					<td>{round(pointsFor / totalMatches, 2)}</td>
-					<td>{round(pointsAgainst / totalMatches, 2)}</td>
+					<td>{round(pointsFor / totalMatches, 1)}</td>
+					<td>{round(pointsAgainst / totalMatches, 1)}</td>
 					<td>{award}</td>
 				</tr>
 			</table>
@@ -142,7 +138,6 @@ function Card({ manager, year } = {}) {
 					<p>
 						<i>{description}</i>
 					</p>
-					{/* @todo make this emoji count dynamic */}
 					{championships}
 				</div>
 			</div>
