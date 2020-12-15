@@ -56,9 +56,9 @@ function ConsolidatedData({ manager } = {}) {
 		<div className={styles.card_body}>
 			<table className={styles.card_table}>
 				<tr>
-					<td>Record</td>
-					<td>PF</td>
-					<td>PA</td>
+					<td>All-time Record</td>
+					<td>Total PF</td>
+					<td>Total PA</td>
 					<td>PF(A)</td>
 					<td>PA(A)</td>
 				</tr>
