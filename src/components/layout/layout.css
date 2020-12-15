@@ -3,6 +3,7 @@
     --color-foreground: black;
 
     /* --color-foreground: #f9c5c1; */
+    --color-light-gray: #ddd;
 }
 
 * {
@@ -11,8 +12,13 @@
 }
 
 html {
-	background: var(--color-background);
+    /* background: var(--color-background); */
+    background-color: #f8f8f8;
 	color: var(--color-foreground);
+}
+
+body {
+    font-family: "Noto Sans JP";
 }
 
 a {

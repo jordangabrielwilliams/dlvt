@@ -1,15 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import 'fontsource-noto-sans-jp/300.css';
 
 import './layout.css';
 
 const propTypes = {
-	/** The child component to render */
-	children: PropTypes.element,
-};
-
-const defaultProps = {
-	children: null,
+	children: PropTypes.element.isRequired,
 };
 
 function Layout({ children }) {
@@ -17,6 +13,5 @@ function Layout({ children }) {
 }
 
 Layout.propTypes = propTypes;
-Layout.defaultProps = defaultProps;
 
 export default Layout;
