@@ -81,6 +81,10 @@ function YearData({ manager, year } = {}) {
 	if (isEmpty(manager) || !year) return null;
 
 	const { years } = manager;
+
+	// Alex didn't join fantasy until the 2019 season
+	if (!years[year]) return 'N/A';
+
 	const { award, record, place, pointsAgainst, pointsFor } = years[year];
 	const { wins, losses, ties } = record;
 	const totalMatches = wins + losses + ties;
