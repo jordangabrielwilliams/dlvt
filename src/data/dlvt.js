@@ -466,7 +466,7 @@ const DLVT = {
 		},
 	},
 	[max]: {
-		championships: '🏆',
+		championships: '🏆🏆',
 		fullName: 'Max Houston',
 		teamName: 'Hut Hut HEIKS',
 		description: 'Supposedly the strongest',
